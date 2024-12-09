@@ -1,0 +1,136 @@
+[{
+    "type": "Meat",
+    "foods": [{
+        "name": "Crispy French Goose Liver",
+        "price": "28",
+        "remark": "Crispy French Goose Liver is a globally renowned delicacy. Its outer skin is golden and crispy, while the inner layer is delicate and smooth. It melts on the palate and has a faint vanilla and fruity aroma. Whether as an appetizer or a main course, it allows people to fully enjoy its unique taste and flavor, making it a classic in French cuisine. "
+    },
+    {
+        "name": "Burgundy Beef Pot",
+        "price": "31",
+        "remark": "Burgundy stewed beef is a traditional French dish. It is cooked with red wine produced in the Burgundy region, paired with various herbs, and has a rich taste with a hint of vanilla fragrance. This dish has excellent color, aroma, and flavor, and is loved by diners. It is one of the delicacies on the French dining table."
+    },
+    {
+        "name": "Baked Shrimp with Cheese",
+        "price": "31",
+        "remark": "Cheese baked shrimp is a delicious seafood dish with excellent color, aroma, and flavor. Fresh and tender shrimp meat paired with rich cheese, after baking, has a rich taste and a creamy aroma. This dish is both beautiful and delicious, making it the perfect choice for seafood enthusiasts."
+    },
+    {
+        "name": "French Cream Mushroom Chicken",
+        "price": "29",
+        "remark": "French cream mushroom chicken is a classic French dish. Chicken is tender and juicy, perfectly blended with cream and mushrooms, with a silky and rich texture. Its color, aroma, and aroma are enticing, leaving an endless aftertaste, making it a delicacy in French cuisine."
+    },
+    {
+        "name": "French Fried Duck Breast",
+        "price": "27",
+        "remark": "French fried duck breast is famous for its crispy outer skin and tender meat texture. Duck meat is carefully marinated, then wrapped in a thin batter and fried until golden and crispy. This dish not only retains the delicacy of duck meat, but also adds a unique crispy taste, making it a delicious dish in French cuisine."
+    }]
+},{
+    "type": "Vegetables",
+    "foods": [{
+        "name": "Baked Spinach and Cheese",
+        "price": "16",
+        "remark": "Roasted spinach cheese is a delicious vegetarian dish with a tempting color, aroma, and flavor. Spinach is tender and delicious, with rich and mellow cheese. After baking, the taste is soft and creamy. This dish is both delicious and nutritious, making it an ideal choice for vegetarians and healthy eaters."
+    },
+    {
+        "name": "Paris Cabbage",
+        "price": "17",
+        "remark": "Paris cabbage is a traditional French dish with a unique flavor. Using fresh cabbage with special sauce, the taste is crispy and delicious. This dish is not only a daily delicacy of Parisians, but also a masterpiece showcasing French culinary skills."
+    },
+    {
+        "name": "French Salad",
+        "price": "18",
+        "remark": "French salad is a refreshing and appetizing dish. Fresh vegetables paired with French specialty seasonings have a rich and layered taste. Colorful and nutritious, it can be enjoyed as both an appetizer and a light snack, making it an indispensable dish in French cuisine."
+    },
+    {
+        "name": "Baked Mushrooms with Cream",
+        "price": "18",
+        "remark": "Cream baked mushrooms are a coveted Western delicacy. The perfect blend of mushrooms and rich cream creates a smooth and tender taste, with a rich aroma. After baking, it is a delicious choice for mushroom enthusiasts, with excellent color, aroma, and a lingering aftertaste."
+    },
+    {
+        "name": "French Fried Potatoes",
+        "price": "19",
+        "remark": "French Fried Potatoes is a classic Western snack. The golden and crispy outer skin, wrapped in a soft and delicate potato core, has a rich and layered taste. Whether as an appetizer or as a main dish, it is an excellent choice and loved by diners."
+    }]
+},{
+    "type": "Soup",
+    "foods": [    {
+        "name": "Marseille Fish Soup",
+        "price": "22",
+        "remark": "Marseille fish soup originates from Marseille, France and is famous for its rich seafood and spices. The fish soup has a golden color, a fragrant aroma, and a rich and layered taste. Tasting Marseille fish soup feels like being on the coast of France, enjoying the gifts of the ocean."
+    },
+    {
+        "name": "French Onion Soup",
+        "price": "19",
+        "remark": "French onion soup is a classic French dish. Boil the onions until golden and soft, perfectly combined with a rich broth, then sprinkle with crispy bread and cheese for a rich and layered taste. Every bite is a feast for the taste buds, leaving an endless aftertaste."
+    },
+    {
+        "name": "French Lobster Soup",
+        "price": "27",
+        "remark": "French lobster soup is a classic French seafood dish made by carefully boiling fresh lobster with ingredients such as tomatoes and celery. The soup has an attractive color and a mellow taste, perfectly blending the freshness of shrimp meat with the richness of the soup, leaving a lasting aftertaste."
+    },
+    {
+        "name": "Cream Mushroom Soup",
+        "price": "18",
+        "remark": "Cream mushroom soup is a classic Western style thick soup, mainly made with cream and mushrooms, with a smooth and rich taste and a rich aroma. Each bite makes one feel the freshness of mushrooms and the softness of cream, making it an excellent choice for savoring Western cuisine and leaving a lasting impression."
+    },
+    {
+        "name": "French Beef Soup",
+        "price": "16",
+        "remark": "French beef soup is a traditional French delicacy made with beef as the main ingredient and carefully cooked with various vegetables. Soup has a rich taste, fresh and tender meat, rich in nutrients, both delicious and nourishing, making it a must-have for savoring French cuisine."
+    }]
+},{
+    "type": "Noodle",
+    "foods": [{
+        "name": "Italian spaghetti",
+        "price": "15",
+        "remark": "Italian Spaghetti is a classic Italian pasta dish known for its slender noodles. Paired with condiments such as tomato sauce and meat sauce, it has a rich taste and is one of the representatives of Italian cuisine. Each bite carries a rich Italian flavor, leaving a lasting impression."
+    },
+    {
+        "name": "Thousand level",
+        "price": "16",
+        "remark": "Thousand Layer is renowned for its unique layered form and rich taste. Each layer is carefully crafted, with a variety of fillings and a crispy and soft texture, making it a masterpiece in Italian pasta."
+    },
+    {
+        "name": "Short Tongxin Face",
+        "price": "14",
+        "remark": "Short Tongxin Face a unique shape of short and sharp noodles. Paired with various sauces, it has a smooth and elastic taste, making it a cute snack in Italian pasta."
+    },
+    {
+        "name": "Macaroni",
+        "price": "14",
+        "remark": "Macaroni with a curved tubular surface, is easy to absorb soup. Whether it's hot or cold food, it can showcase its unique charm and is an indispensable role in Italian cuisine."
+    },
+    {
+        "name": "Italian wide noodles",
+        "price": "15",
+        "remark": "Italian Wide Noodles have thick and chewy noodles. Paired with rich sauces, the taste is rich and satisfying. Every bite can taste the essence of Italian noodles, making it a classic choice in Italian cuisine."
+    }]
+},{
+    "type": "Drink",
+    "foods": [{
+        "name": "French Red Wine",
+        "price": "79",
+        "remark": "French red wine has a deep color, rich aroma, and a mellow taste, making it a great wine for savoring elegant life. It embodies the essence of French wine culture and is an excellent choice for gatherings and celebrations."
+    },
+    {
+        "name": "French White Wine",
+        "price": "69",
+        "remark": "French white wine has a golden color, a fresh and refreshing taste, with a faint fruity aroma, making it a great choice for summer heat relief and leisure time. It showcases the diversity of French wine and is loved by wine enthusiasts."
+    },
+    {
+        "name": "Champagne",
+        "price": "129",
+        "remark": "Champagne with delicate foam, rich taste and unique yeast aroma is the best choice to celebrate special moments. Its elegance and romance make every moment more unforgettable."
+    },
+    {
+        "name": "Coffee",
+        "price": "12",
+        "remark": "Coffee has a rich aroma and a mellow taste, making it a great companion for refreshing and enjoying leisure time. Whether savoring alone or gathering with friends, a cup of coffee can bring endless comfort and satisfaction."
+    },
+    {
+        "name": "Hot Chocolate",
+        "price": "15",
+        "remark": "Hot chocolate has a silky and sweet taste, providing warm comfort in cold weather. It can not only satisfy the taste buds, but also bring comfort and pleasure to both the body and mind."
+    }]
+}]

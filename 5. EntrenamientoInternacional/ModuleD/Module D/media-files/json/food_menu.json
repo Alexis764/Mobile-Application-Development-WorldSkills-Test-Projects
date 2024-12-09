@@ -1,0 +1,330 @@
+[
+    {
+        "name": "Brie Cheese ",
+        "price": "33",
+        "remark": "Sign must be ordered, netizens recommend ",
+        "type_id": "1",
+        "image_url": "type_1_01.png"
+    },
+    {
+        "name": "Conte Cheese ",
+        "price": "38",
+        "remark": "Monthly sales 70",
+        "type_id": "1",
+        "image_url": "type_1_02.png"
+    },
+    {
+        "name": "Camembert Cheese ",
+        "price": "33.8",
+        "remark": "Monthly sales 100+ praise 60%",
+        "type_id": "1",
+        "image_url": "type_1_03.png"
+        
+    },
+    {
+        "name": "Baguette ",
+        "price": "25",
+        "remark": "Monthly sales 100+ praise 100%",
+        "type_id": "1",
+        "image_url": "type_1_04.jpeg"
+    },
+    {
+        "name": "Brioche ",
+        "price": "38",
+        "remark": "Monthly sales 88",
+        "type_id": "1",
+        "image_url": "type_1_05.jpeg"
+        
+    },
+    {
+        "name": "Croissants ",
+        "price": "32",
+        "remark": "Monthly sales 87",
+        "type_id": "1",
+        "image_url": "type_1_06.jpeg"
+        
+    },
+    {
+        "name": "Brittany Oyster ",
+        "price": "48",
+        "remark": "Number four ",
+        "type_id": "2",
+        "image_url": "type_2_01.png"
+        
+    },
+    {
+        "name": "Lobster Biske ",
+        "price": "138",
+        "remark": "Number two in sales ",
+        "type_id": "2",
+        "image_url": "type_2_02.jpg"
+        
+    },
+    {
+        "name": "Cod pickle ",
+        "price": "88",
+        "remark": "Recently 100+ people order ",
+        "type_id": "2",
+        "image_url": "type_2_03.jpg"
+        
+    },
+    {
+        "name": "Shrimp vermicelli Salad ",
+        "price": "66",
+        "remark": "Monthly sales 100+",
+        "type_id": "2",
+        "image_url": "type_2_04.jpeg"
+        
+    },
+    {
+        "name": "Seafood burger ",
+        "price": "59",
+        "remark": "Kids like to eat online comments ",
+        "type_id": "2",
+        "image_url": "type_2_05.jpeg"
+        
+    },
+    {
+        "name": "Seafood kebab ",
+        "price": "25",
+        "remark": "Moderate price ",
+        "type_id": "2",
+        "image_url": "type_2_06.jpeg"
+        
+    },
+    {
+        "name": "French bouillon ",
+        "price": "28",
+        "remark": "Next time more ",
+        "type_id": "2",
+        "image_url": "type_2_07.jpg"
+        
+    },
+    {
+        "name": "French rainbow ",
+        "price": "38",
+        "remark": "Sweet and delicious ",
+        "type_id": "2",
+        "image_url": "type_2_08.png"
+        
+    },
+    {
+        "name": "French Roast Duck ",
+        "price": "85",
+        "remark": "Monthly sales 100+",
+        "type_id": "3",
+        "image_url": "type_3_01.jpg"
+        
+    },
+    {
+        "name": "Duck confit ",
+        "price": "72",
+        "remark": "Paella is the same as in the restaurant ",
+        "type_id": "3",
+        "image_url": "type_3_02.png"
+        
+    },
+    {
+        "name": "Fried duck breast ",
+        "price": "50",
+        "remark": "Monthly sales 64",
+        "type_id": "3",
+        "image_url": "type_3_03.png"
+        
+    },
+    {
+        "name": "Carpaccio ",
+        "price": "158",
+        "remark": "Monthly sales 42",
+        "type_id": "3",
+        "image_url": "type_3_04.png"
+        
+    },
+    {
+        "name": "Beef tartar ",
+        "price": "238",
+        "remark": "The material is rich ",
+        "type_id": "3",
+        "image_url": "type_3_05.png"
+        
+    },
+    {
+        "name": "Foie gras",
+        "price": "111",
+        "remark": "It's worth recommending.",
+        "type_id": "3",
+        "image_url": "type_3_06.png"
+        
+    },
+    {
+        "name": "Fried French Foie gras ",
+        "price": "133",
+        "remark": "Monthly sales 18",
+        "type_id": "3",
+        "image_url": "type_3_07.jpg"
+        
+    },
+    {
+        "name": "Chilled Foie gras ",
+        "price": "135",
+        "remark": "Monthly sales 18",
+        "type_id": "3",
+        "image_url": "type_3_08.jpg"
+        
+    },
+    {
+        "name": "French roast leg of lamb ",
+        "price": "288",
+        "remark": "Monthly sales 18",
+        "type_id": "3",
+        "image_url": "type_3_09.jpeg"
+        
+    },
+    {
+        "name": "Beef pudding ",
+        "price": "68",
+        "remark": "Monthly sales 18",
+        "type_id": "3",
+        "image_url": "type_3_10.jpeg"
+        
+    },
+    {
+        "name": "Red wine beef stew ",
+        "price": "155",
+        "remark": "Great value for money ",
+        "type_id": "4",
+        "image_url": "type_4_01.png"
+        
+    },
+    {
+        "name": "Stewed duck in Red Wine ",
+        "price": "88",
+        "remark": "Red wine is very strong ",
+        "type_id": "4",
+        "image_url": "type_4_02.jpg"
+        
+    },
+    {
+        "name": "Breton chowder ",
+        "price": "168",
+        "remark": "Monthly sale 19",
+        "type_id": "4",
+        "image_url": "type_4_03.jpeg"
+        
+    },
+    {
+        "name": "Provence Roast Chicken ",
+        "price": "58",
+        "remark": "Monthly sales 15",
+        "type_id": "5",
+        "image_url": "type_5_01.png"
+        
+    },
+    {
+        "name": "Provence leg of lamb ",
+        "price": "268",
+        "remark": "Monthly sales 5",
+        "type_id": "5",
+        "image_url": "type_5_02.png"
+        
+    },
+    {
+        "name": "Baked Pigeon in Brittany ",
+        "price": "73",
+        "remark": "Monthly sales 11",
+        "type_id": "5",
+        "image_url": "type_5_03.jpg"
+        
+    },
+    {
+        "name": "French Fruit tart ",
+        "price": "28",
+        "remark": "Traditional French fruit tart ",
+        "type_id": "6",
+        "image_url": "type_6_01.jpeg"
+        
+    },
+    {
+        "name": "Creme fraiche ",
+        "price": "18",
+        "remark": "Monthly sales 32",
+        "type_id": "6",
+        "image_url": "type_6_02.png"
+        
+    },
+    {
+        "name": "French Madeleines ",
+        "price": "25",
+        "remark": "Soft and sweet ",
+        "type_id": "6",
+        "image_url": "type_6_03.png"
+        
+    },
+    {
+        "name": "French Puff Pastry ",
+        "price": "28",
+        "remark": "Classic French dessert ",
+        "type_id": "6",
+        "image_url": "type_6_04.png"
+        
+    },
+    {
+        "name": "Crepe ",
+        "price": "18",
+        "remark": "Thin as paper ",
+        "type_id": "6",
+        "image_url": "type_6_05.png"
+        
+    },
+    {
+        "name": "Bordeaux ",
+        "price": "688",
+        "remark": "Monthly sales 6",
+        "type_id": "7",
+        "image_url": "type_7_01.png"
+        
+    },
+    {
+        "name": "Burgundy Wine ",
+        "price": "468",
+        "remark": "Monthly sales 3",
+        "type_id": "7",
+        "image_url": "type_7_02.png"
+        
+    },
+    {
+        "name": "Flower of Paris ",
+        "price": "666",
+        "remark": "Monthly sales 18",
+        "type_id": "7",
+        "image_url": "type_7_03.png"
+        
+    },
+    {
+        "name": "Princess Louis ",
+        "price": "1688",
+        "remark": "Monthly sales 10",
+        "type_id": "7",
+        "image_url": "type_7_04.png"
+        
+    },
+    {
+        "name": "Moet & Chandon ",
+        "price": "388",
+        "remark": "Monthly sales 18",
+        "type_id": "7",
+        "image_url": "type_7_05.png"
+        
+    },
+    {
+        "name": "Alsace Wine ",
+        "price": "760",
+        "remark": "Monthly sales 5",
+        "type_id": "7",
+        "image_url": "type_7_06.jpeg"
+        
+    }
+]
+ 
+ 
+ 

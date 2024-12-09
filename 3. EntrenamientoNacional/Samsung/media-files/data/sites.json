@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1DD6CBD1-2774-4039-9148-731B847C46DE",        
+        "name":"Kopster",        
+        "latitude":45.76750001417984,
+        "longitude":4.983274705669347, 
+        "lastCheckDate":739522382.775912
+    },
+    {
+        "id":"741C9549-AC0A-43DF-9427-2F0B3D193854",
+        "name":"Hotel Lyon Ouest",
+        "latitude":45.78845131823038,         
+        "longitude":4.8150489755880255,
+        "lastCheckDate":739522382.775919        
+    },
+    {
+        "id":"D8EC01AB-DDB8-4CA2-8B93-6F76F4121584",        
+        "name":"Mercure Lyon Centre Lumiere",        
+        "latitude":45.74704863500222,
+        "longitude":4.867744564432294, 
+        "lastCheckDate":739522382.77592
+    },
+    {
+        "id":"E1304CAE-D3A4-4D91-9933-40E407433A83",        
+        "name":"Appart City Lyon Part Dieu Garibaldi",        
+        "latitude":45.75378800410667,        
+        "longitude":4.854875839451556,
+        "lastCheckDate":739522382.77592
+    }
+]

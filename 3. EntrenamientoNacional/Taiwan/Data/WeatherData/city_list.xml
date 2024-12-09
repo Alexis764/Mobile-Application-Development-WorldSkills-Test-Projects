@@ -1,0 +1,27 @@
+<city_list>
+    <city type="current">
+        <name>New Taipei City</name>
+        <name_tw>新北市</name_tw>
+        <file_name>current.xml</file_name>
+    </city>
+    <city>
+        <name>Taipei City</name>
+        <name_tw>台北市</name_tw>
+        <file_name>taipei.xml</file_name>
+    </city>
+    <city>
+        <name>Taoyuan City</name>
+        <name_tw>桃園市</name_tw>
+        <file_name>taoyuan.xml</file_name>
+    </city>
+    <city>
+        <name>Taichung City</name>
+        <name_tw>台中市</name_tw>
+        <file_name>taichung.xml</file_name>
+    </city>
+    <city>
+        <name>Tainan City</name>
+        <name_tw>台南市</name_tw>
+        <file_name>tainan.xml</file_name>
+    </city>
+</city_list>

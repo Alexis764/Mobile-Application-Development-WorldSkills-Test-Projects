@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Welcome Page",
+        "content": [
+            "Thank you for choosing to dine here.",
+            "Seat number",
+            "Please enter your seat number",
+            "Number of diner(s)",
+            "Confirm"
+        ]
+    },
+    {
+        "name": "Home - Main dishes Page",
+        "content": [
+            "Main dishes",
+            "Food introduction text: Delicious, tasty",
+            "€"
+        ]
+    },
+    {
+        "name": "Home - Pastries Page",
+        "content": [
+            "Pastries",
+            "Food introduction text: Delicious, tasty",
+            "€"
+        ]
+    },
+    {
+        "name": "Home - Soups Page",
+        "content": [
+            "Soups",
+            "Food introduction text: Delicious, tasty",
+            "€"
+        ]
+    },
+    {
+        "name": "Shopping Cart Page",
+        "content": [
+            "Submit"
+        ]
+    },
+    {
+        "name": "Payment Page",
+        "content": [
+            "Payment",
+            "Seat Number：",
+            "Payment required：",
+            "Payment method：",
+            "PayPal",
+            "Visa card",
+            "Check out",
+            "Please confirm the seat number before your payment."
+        ]
+    },
+    {
+        "name": "Ordered - Not Selected Page",
+        "content": [
+            "Ordered",
+            "No ordered have been placed yet"
+        ]
+    },
+    {
+        "name": "Ordered - Selected Page",
+        "content": [
+            "Ordered"
+        ]
+    }
+]

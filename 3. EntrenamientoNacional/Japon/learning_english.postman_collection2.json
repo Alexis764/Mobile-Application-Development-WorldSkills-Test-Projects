@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "730035fc-f008-4627-a002-a61c3090a6c6",
+		"name": "learning_english",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31165246"
+	},
+	"item": [
+		{
+			"name": "Token acquisition",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"ks-nagoya00\",\r\n    \"password\": \"JP24Mar-rei\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://160.16.55.98:8000/api/token/"
+			},
+			"response": []
+		},
+		{
+			"name": "Token verification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzk3MzcxLCJpYXQiOjE3MTA3NTQxNzEsImp0aSI6IjI0OTQwNTAwMDIyYTRlMzk5MjNkMWQ4NjA0MWVhZGMwIiwidXNlcl9pZCI6Mn0.5cq7qYJ9JM7fLYBqp5okUJCXgON4PRxB4Ge1UDGBpNo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://160.16.55.98:8000/api/token/verify/"
+			},
+			"response": []
+		},
+		{
+			"name": "Token reacquisition",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcxMDg0MDU3MSwiaWF0IjoxNzEwNzU0MTcxLCJqdGkiOiJjZmI2ZTkxMTRkNmI0NDhiYTJjZmIxNDhjNDliYmI3ZiIsInVzZXJfaWQiOjJ9.YS2DgiKiz3WRz20Zaaf3n5sayd3VFCSa0WAObJ_RuR4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://160.16.55.98:8000/api/token/refresh/"
+			},
+			"response": []
+		},
+		{
+			"name": "For obtaining questions 1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzk3NDQ1LCJpYXQiOjE3MTA3NTQxNzEsImp0aSI6ImI4MmI4OGExNzc0YTQ0NjhiYjZkYmI5NjlkYjRhZDlmIiwidXNlcl9pZCI6Mn0.CZPoWAp0J7j4qqp4LqZKXBZ0MnvOHCj13-hQKGf3dy8"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://160.16.55.98:8000/api/questions/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "For obtaining questions 2",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzk3NDQ1LCJpYXQiOjE3MTA3NTQxNzEsImp0aSI6ImI4MmI4OGExNzc0YTQ0NjhiYjZkYmI5NjlkYjRhZDlmIiwidXNlcl9pZCI6Mn0.CZPoWAp0J7j4qqp4LqZKXBZ0MnvOHCj13-hQKGf3dy8"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://160.16.55.98:8000/api/questions/2/"
+			},
+			"response": []
+		},
+		{
+			"name": "For obtaining cumulative points 1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzk3NDQ1LCJpYXQiOjE3MTA3NTQxNzEsImp0aSI6ImI4MmI4OGExNzc0YTQ0NjhiYjZkYmI5NjlkYjRhZDlmIiwidXNlcl9pZCI6Mn0.CZPoWAp0J7j4qqp4LqZKXBZ0MnvOHCj13-hQKGf3dy8"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://160.16.55.98:8000/api/users/points/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "For obtaining cumulative points 2",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzk3NDQ1LCJpYXQiOjE3MTA3NTQxNzEsImp0aSI6ImI4MmI4OGExNzc0YTQ0NjhiYjZkYmI5NjlkYjRhZDlmIiwidXNlcl9pZCI6Mn0.CZPoWAp0J7j4qqp4LqZKXBZ0MnvOHCj13-hQKGf3dy8"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://160.16.55.98:8000/api/users/points/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "For adding cumulative points",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzgwNTAyLCJpYXQiOjE3MTA3MzczMDIsImp0aSI6Ijg0Mjc0MjYxZjYzNjQ4NmRhNTczMzA4YjE0MWU5MDdhIiwidXNlcl9pZCI6Mn0.zZNxek0PAORA5G9L1gMYLTjyY3qvwSTDgyCAGv7qXsI"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\" : \"1\", \"points\" : \"11\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://160.16.55.98:8000/api/users/points/add/"
+			},
+			"response": []
+		},
+		{
+			"name": "For subtracting cumulative points",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEwNzgwNTAyLCJpYXQiOjE3MTA3MzczMDIsImp0aSI6Ijg0Mjc0MjYxZjYzNjQ4NmRhNTczMzA4YjE0MWU5MDdhIiwidXNlcl9pZCI6Mn0.zZNxek0PAORA5G9L1gMYLTjyY3qvwSTDgyCAGv7qXsI"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\" : \"1\", \"points\" : \"11\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://160.16.55.98:8000/api/users/points/subtract/"
+			},
+			"response": []
+		}
+	]
+}

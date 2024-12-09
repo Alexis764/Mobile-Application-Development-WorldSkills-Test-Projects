@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Cheese and bread",
+    "id": "1"
+  },
+  {
+    "name": "Seafood",
+    "id": "2"
+  },
+  {
+    "name": "Red meat and poultry",
+    "id": "3"
+    
+  },
+  {
+    "name": "Stew",
+    "id": "4"
+  },
+  {
+    "name": "Mutton and poultry",
+    "id": "5"
+
+  },
+  {
+    "name": "Dessert",
+    "id": "6"
+
+  },
+  {
+    "name": "Wine",
+    "id": "7"
+
+  }
+]

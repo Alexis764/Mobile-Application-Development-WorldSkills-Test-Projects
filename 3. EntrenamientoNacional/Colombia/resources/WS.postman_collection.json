@@ -1,0 +1,335 @@
+{
+	"info": {
+		"_postman_id": "5ec0ff68-e15c-4f12-b360-a4cbac1b76c2",
+		"name": "WSAntioquia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "REGISTRO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Prueba\",\r\n    \"password\" : \"123456\",\r\n    \"password_confirmation\" : \"123456\",\r\n    \"email\" : \"prueba@prueba.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/register",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"pruebafinal@gmail.com\",\r\n    \"password\" : \"111111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/login",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SAVE PRODUCTO",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5NTc1NjQ2LCJleHAiOjE2Njk1NzkyNDYsIm5iZiI6MTY2OTU3NTY0NiwianRpIjoicmFXY3hIcW9MWENmdkJhRiIsInN1YiI6IjQ1IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.hCVTNsmN__HqG33P9GIwS8NNld8B39SDFXxwn6JkPe8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nombre\": \"Motorola SENA\",\r\n        \"descripcion\": \"An apple mobile which is nothing like apple\",\r\n        \"precio\": 700000,\r\n        \"likes\": 0,\r\n        \"categoria\": \"smartphones\",\r\n        \"moneda\": \"$\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/productos",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET MIS PRODUCTOS",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5NTY1OTM1LCJleHAiOjE2Njk1Njk1MzUsIm5iZiI6MTY2OTU2NTkzNSwianRpIjoib0c4eTUxYTlncWJGZXA5USIsInN1YiI6IjQ1IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.9Tzlc_DBXyncE6yA58h19PSXCu9f7cQ1jKCnJ-BCXHU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/productos?lastest",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"productos"
+					],
+					"query": [
+						{
+							"key": "lastest",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RESET PASSWORD",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5MzI5MTgzLCJleHAiOjE2NjkzMzI3ODMsIm5iZiI6MTY2OTMyOTE4MywianRpIjoiaWRVc09RdnlJM3JXTUtZRCIsInN1YiI6IjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.diooRaXt450S7gw0iu2nSFOHc87kg19LoZfO8-6IhMY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"a@a.com\",\r\n    \"name\":\"ANA\",\r\n    \"password\":\"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/userapi?passReset=true",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"userapi"
+					],
+					"query": [
+						{
+							"key": "passReset",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET PRODUCTO",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5NDIwOTU1LCJleHAiOjE2Njk0MjQ1NTUsIm5iZiI6MTY2OTQyMDk1NSwianRpIjoiYWNJVFVzcm5ETWxReUE1NCIsInN1YiI6IjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.uzg64VWL-YqC9evLHllc5Bv_QQSXeDIpnxfvV4hP2oQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/productos/1",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"productos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET PRODUCTOS",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5NDIwOTU1LCJleHAiOjE2Njk0MjQ1NTUsIm5iZiI6MTY2OTQyMDk1NSwianRpIjoiYWNJVFVzcm5ETWxReUE1NCIsInN1YiI6IjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.uzg64VWL-YqC9evLHllc5Bv_QQSXeDIpnxfvV4hP2oQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/productos",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SEARCH BY NAME",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5NTY1OTM1LCJleHAiOjE2Njk1Njk1MzUsIm5iZiI6MTY2OTU2NTkzNSwianRpIjoib0c4eTUxYTlncWJGZXA5USIsInN1YiI6IjQ1IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.9Tzlc_DBXyncE6yA58h19PSXCu9f7cQ1jKCnJ-BCXHU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/productos?search=SEN",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"productos"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "SEN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notifications",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dzYS5mYWJyaWNhc29mdHdhcmUuY28vYXBpL2xvZ2luIiwiaWF0IjoxNjY5NDIwOTU1LCJleHAiOjE2Njk0MjQ1NTUsIm5iZiI6MTY2OTQyMDk1NSwianRpIjoiYWNJVFVzcm5ETWxReUE1NCIsInN1YiI6IjMiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.uzg64VWL-YqC9evLHllc5Bv_QQSXeDIpnxfvV4hP2oQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"a@a.com\",\r\n    \"name\":\"Ana\",\r\n    \"password\":\"1234567\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wsa.fabricasoftware.co/api/notificaciones",
+					"protocol": "https",
+					"host": [
+						"wsa",
+						"fabricasoftware",
+						"co"
+					],
+					"path": [
+						"api",
+						"notificaciones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

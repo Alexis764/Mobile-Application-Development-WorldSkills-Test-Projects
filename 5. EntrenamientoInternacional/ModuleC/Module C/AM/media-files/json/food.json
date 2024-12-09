@@ -1,0 +1,97 @@
+[
+    {
+        "type": "Main dishes",
+        "foods": [
+            {
+                "name": "Basque chicken stew",
+                "image_url": "Basque chicken stew.jpg"
+            },
+            {
+                "name": "French snail",
+                "image_url": "French Snail.jpg"
+            },
+            {
+                "name": "Cassoulet",
+                "image_url": "Cassoulet.jpg"
+            },
+            {
+                "name": "Frog legs",
+                "image_url": "Frog legs.jpg"
+            },
+            {
+                "name": "Beef tartare",
+                "image_url": "Beef tartare.jpg"
+            },
+            {
+                "name": "Duck confit",
+                "image_url": "Duck confit.jpg"
+            },
+            {
+                "name": "Burgundy beef",
+                "image_url": "Burgundy beef .jpg"
+            },
+            {
+                "name": "Duck breast",
+                "image_url": "Duck breast.jpg"
+            }
+        ]
+    },
+    {
+        "type": "Pastries",
+        "foods": [
+            {
+                "name": "Baguette",
+                "image_url": "Baguette.png"
+            },
+            {
+                "name": "Croissant",
+                "image_url": "Croissant.png"
+            },
+            {
+                "name": "La galette",
+                "image_url": "La Galette.jpg"
+            },
+            {
+                "name": "Pain brie",
+                "image_url": "Pain Brie.jpg"
+            },
+            {
+                "name": "Brioche",
+                "image_url": "brioche.jpg"
+            },
+            {
+                "name": "Quiche lorraine",
+                "image_url": "Quiche Lorraine.jpg"
+            },
+            {
+                "name": "Burgundy beef",
+                "image_url": "Burgundy beef_2.jpg"
+            }
+        ]
+    },
+    {
+        "type": "Soups",
+        "foods": [
+            {
+                "name": "French onion soup",
+                "image_url": "French Onion Soup.jpg"
+            },
+            {
+                "name": "Bouillabaisse",
+                "image_url": "Bouillabaisse.jpg"
+            },
+            {
+                "name": "French vegetable beef soup",
+                "image_url": "French vegetable beef soup.jpg"
+            },
+            {
+                "name": "Pumpkin soup",
+                "image_url": "Pumpkin Soup.jpg"
+            },
+            {
+                "name": "Provence tomato soup",
+                "image_url": "Provence tomato soup.jpg"
+            }
+        ]
+    }
+]

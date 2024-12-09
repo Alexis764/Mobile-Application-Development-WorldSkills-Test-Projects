@@ -1,0 +1,124 @@
+[
+    {
+        "name": "Bootstrap Page",
+        "content": [
+            "Skip"
+        ]
+    },
+    {
+        "name": "Welcome Page",
+        "content": [
+            "Join us right now",
+            "Login",
+            "or",
+            "Register"
+        ]
+    },
+    {
+        "name": "Login Page",
+        "content": [
+            "Please enter your account",
+            "Please enter your password",
+            "I have read and agreed《User Privacy Policy》",
+            "Login",
+            "Forgot your password?"
+        ]
+    },
+    {
+        "name": "Home Page",
+        "content": [
+            "Main Categories",
+            "Main dishes",
+            "Pastries",
+            "Soups",
+            "Popular Food",
+            {
+                "name": "Matsutake foie gras",
+                "description": "Matsutake and foie gras are mainly made from Matsutake and foie gras, with a rich and soft taste and a rich aroma."
+            },
+            {
+                "name": "Marseille fish soup",
+                "description": "Marseille fish soup is a specialty dish in the southern French city of Marseille, featuring a rich flavor of tomatoes and fish."
+            },
+            {
+                "name": "French Snail",
+                "description": "French snail is a traditional cuisine in France, mainly made from fresh snail meat and seasoned with rich herbs, garlic, and butter."
+            }
+        ]
+    },
+    {
+        "name": "Details page (Matsutake foie gras)",
+        "content": [
+            "Matsutake foie gras",
+            "Recommended！",
+            "Prep",
+            "10 Min",
+            "Total",
+            "30 Min",
+            "Servings",
+            "2",
+            "4.5",
+            "Description",
+            "Matsutake goose liver is a delicious dish that combines matsutake and goose liver. Matsutake is a precious wild mushroom with a unique aroma and rich taste. Goose liver, on the other hand, is a luxurious poultry visceral ingredient known for its soft and delicate taste and rich flavor.",
+            "Steps",
+            "Making Matsutake Sauce: Cut fresh matsutake into small pieces, then bake in an oven until crispy or heat in a frying pan until the aroma spreads. Next, put the chopped matsutake into a blender, add some chicken soup or white wine, and stir to form a uniform matsutake sauce.",
+            "Pan fried foie gras: Cut the foie gras into evenly thick slices and season with salt and pepper. Heat the pan, add some butter, and let the butter melt. Then, put the foie gras into the pan and fry for about 2-3 minutes on each side until the surface is golden and the inside is fully cooked.",
+            "Platter and decoration: Place the fried foie gras on a plate, pour in matsutake sauce, and then use some fresh matsutake, fruits, or flowers as decoration. Enjoy the delicacy of Matsutake Goose Liver."
+        ]
+    },
+    {
+        "name": "Details page (Marseille fish soup)",
+        "content": [
+            "Marseille fish soup",
+            "Recommended！",
+            "Prep",
+            "15 Min",
+            "Total",
+            "35 Min",
+            "Servings",
+            "2",
+            "4.0",
+            "Description",
+            "Marseille fish soup is one of the specialty dishes in the southern French city of Marseille. It is a rich tomato and fish soup typically made with various fresh Mediterranean fish, mussels, and crabs.",
+            "Steps",
+            "Preparation materials: Prepare the necessary ingredients, including fish (usually using various fish species such as flatfish, bass, cod, etc.), vegetables (such as onions, tomatoes, garlic, tomato sauce, etc.), herbs, and seasonings (such as thyme, basil, parsley, olive oil, salt, and pepper).",
+            "Stewed fish soup: Heat some olive oil in a large pot, add chopped onions and garlic, stir fry over medium heat until softened. Then add chopped tomatoes and tomato sauce and continue to stir fry for a few minutes. Next, add an appropriate amount of water, lower the heat and bring to a boil. Put various fish into the pot and gently stir until evenly mixed. Add herbs and seasonings such as thyme, basil, parsley, salt, and pepper. Continue to stew for about 30 minutes until the fish is cooked and the soup is fragrant.",
+            "Plate and enjoy: Pour the stewed Marseille fish soup into a soup bowl and pair it with bread or garlic bread slices. You can add some fresh vanilla as decoration according to your personal taste. Enjoy the Marseille fish soup when it’s steaming hot."
+        ]
+    },
+    {
+        "name": "Details page (French Snail)",
+        "content": [
+            "French Snail",
+            "Recommended！",
+            "Prep",
+            "5 Min",
+            "Total",
+            "30 Min",
+            "Servings",
+            "1",
+            "4.5",
+            "Description",
+            "French Snail is a traditional French cuisine, also known as snail meal. It is mainly made from fresh snail meat and seasoned with rich herbs, garlic, and butter. Snail meat presents a tender and smooth taste, while the aroma of vanilla and garlic adds a unique flavor.",
+            "Steps",
+            "Prepare snails and seasoning: Usually live snails or frozen snails are used, and if frozen snails are used, they need to be thawed first. Take out the snail meat, clean it with clean water, and then put it on a plate for later use. Prepare some butter, garlic, cilantro, salt, and pepper as seasonings.",
+            "Cooking: Chop the garlic and cilantro into small pieces and set aside. Heat some butter in a frying pan, add garlic and stir fry for a few seconds. Wait for the aroma to dissipate, then add sliced snail meat and cook over low heat until the snail becomes softer and smoother. Then add cilantro, salt, and pepper, gently stir until evenly distributed to distribute the seasoning.",
+            "Plate setting: Put the sliced snail meat into the snail shell, then place it on a baking tray, sprinkle some bread crumbs and small pieces of butter. Bake in the oven for 5-10 minutes until the breadcrumbs turn golden yellow. Serve the French snail on the table, and you can use a fork or specially made snail pliers to take out the snail meat for consumption. At the same time, you can immerse it in a specially made snail sauce for consumption."
+        ]
+    },
+    {
+        "name": "Discover page",
+        "content": [
+            "Chef",
+            {
+                "chef_name": [
+                    "Pierre Gagnaire",
+                    "Alain Ducasse",
+                    "Paul Bocuse"
+                ],
+                "rating": "4.0",
+                "description": "His grasp of detail is outstanding, and every dish he cooks is like a meticulously crafted work of art, making people feel his love and dedication to cooking during the tasting process."
+            }
+        ]
+    }
+]
