@@ -1,0 +1,50 @@
+[
+  {
+    "nombreProducto": "Manzanas Rojas",
+    "precio": 1500,
+    "cantidad": 25,
+    "categoria": "Fruta"
+  },
+  {
+    "nombreProducto": "Zanahorias",
+    "precio": 1200,
+    "cantidad": 40,
+    "categoria": "Verduras"
+  },
+  {
+    "nombreProducto": "Arroz Integral",
+    "precio": 2500,
+    "cantidad": 60,
+    "categoria": "Cereales"
+  },
+  {
+    "nombreProducto": "Leche Deslactosada",
+    "precio": 3500,
+    "cantidad": 20,
+    "categoria": "Lacteos"
+  },
+  {
+    "nombreProducto": "Bananas",
+    "precio": 1800,
+    "cantidad": 30,
+    "categoria": "Fruta"
+  },
+  {
+    "nombreProducto": "Espinacas",
+    "precio": 900,
+    "cantidad": 50,
+    "categoria": "Verduras"
+  },
+  {
+    "nombreProducto": "Avena en Hojuelas",
+    "precio": 2000,
+    "cantidad": 35,
+    "categoria": "Cereales"
+  },
+  {
+    "nombreProducto": "Queso Campesino",
+    "precio": 4000,
+    "cantidad": 15,
+    "categoria": "Lacteos"
+  }
+]
