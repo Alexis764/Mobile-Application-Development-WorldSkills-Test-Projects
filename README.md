@@ -1,5 +1,5 @@
 <div  align="center">
-<h1 align="center">Mobile application development WorldSkills test projects</h1>
+<h1 align="center">Mobile Application Development WorldSkills test projects</h1>
 </div>
 
 <p align="center">  
@@ -20,6 +20,8 @@ Compartir los retos que enfrenté como competidor para que futuros participantes
   • Lógica de programación.
   
 💻 Desafíos específicos diseñados para emular las condiciones de las competencias WorldSkills.
+
+📖 Documentos WorldSkills recopilados para dar un contexto sobre la competencia y sus caracteristicas. 
 </pre>
 
 ### 1. Entrenamiento Regional
@@ -57,4 +59,14 @@ Contiene los 3 módulos del test project presentado en la competencia nacional r
 ### 7. WorldSkills 2024
 <p>
   Incluye 7 test projects utilizados en la competencia internacional realizada en Lyon en 2024, junto con los recursos asociados. Estos test projects destacan por su complejidad y enfoque en tendencias avanzadas en desarrollo móvil.
+</p>
+
+### 8. Test Project CampeSENA
+<p>
+  Incluye 1 test project enfocado en CampeSENA y la economia popular, junto con los recursos asociados. Este test project fue desarrollado con el objetivo de ser parte de las transferencias a nivel nacional 2024 en la habilidad #8 Desarrollo de Aplicaciones Moviles.
+</p>
+
+### WorldSkills Documents
+<p>
+  Contiene 2 Informes sobre el ciclo de competencias WorldSkills 2023-2024 asi como un manual general para competidores. Cuenta con 3 documentos oficiales de WorldSkills 2024, la descripcion tecnica de la habilidad desarrollo de aplicaciones moviles, la infraestructura utilizada en WorldSkills Lyon y la guia de estandares y evaluacion.
 </p>
